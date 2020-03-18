@@ -64,9 +64,6 @@ section{
   color: #fff;
   background-color: #8BC63E;
 }
-table{
-  width: 90%;
-}
 
 @media (min-width: 960px) {
   .container{
