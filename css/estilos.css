@@ -1,0 +1,67 @@
+body{
+  color: #555555;
+  font-family: sans-serif;
+  font-size: 14px;
+  background-color: #1B2630;
+}
+h3{
+  font-weight: bold;
+  color: #00386d;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.principal{
+  padding: 15px;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #ddd;
+}
+.container{
+  margin: 50px auto;
+  width: 980px;
+}
+table, td{
+  border-color: black;
+  border-style:solid;
+  border-width: 1px;
+}
+table{
+  margin: 10px;
+}
+td{
+  padding: 5px;
+}
+section{
+  background-color: #ffffff;
+  padding: 5px;
+}
+.meu-placar{
+  top:0;
+  width: 325px;
+}
+.minhas-notas{
+  position: absolute;
+  top:15px;
+  right: 15px;
+  width: 610px;
+}
+.dados{
+  text-align: right;
+}
+.nome-campo{
+  font-weight: bold;
+  color: #fff;
+  background-color: #0056A1;
+}
+.campo-verde{
+  font-weight: bold;
+  color: #fff;
+  background-color: #689729;
+}
+.valor-verde{
+  font-weight: bold;
+  color: #fff;
+  background-color: #8BC63E;
+}
