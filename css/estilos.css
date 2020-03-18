@@ -20,7 +20,7 @@ h3{
 }
 .container{
   margin: 50px auto;
-  width: 980px;
+  width: 96%;
 }
 table, td{
   border-color: black;
@@ -36,18 +36,17 @@ td{
 section{
   background-color: #ffffff;
   padding: 5px;
+  margin: 8px;
 }
 .meu-placar{
   top:0;
-  width: 325px;
+  width: auto;
 }
 .minhas-notas{
-  position: absolute;
-  top:15px;
-  right: 15px;
-  width: 610px;
+  width: auto;
 }
 .dados{
+  padding: 5px 5px 5px 35px;
   text-align: right;
 }
 .nome-campo{
@@ -64,4 +63,24 @@ section{
   font-weight: bold;
   color: #fff;
   background-color: #8BC63E;
+}
+table{
+  width: 90%;
+}
+
+@media (min-width: 960px) {
+  .container{
+    margin: 50px auto;
+    width: 980px;
+  }
+  .meu-placar{
+    top:0;
+    width: 345px;
+  }
+  .minhas-notas{
+    position: absolute;
+    top:15px;
+    right: 15px;
+    width: 590px;
+  }
 }
